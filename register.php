@@ -55,7 +55,7 @@
         }
         h2{
             text-align: center;
-            margin-bottom: 40px;
+            margin-bottom: 20px;
         }
         input{
             display: block;
@@ -106,6 +106,8 @@
     <input type="email" name="email" placeholder="your email"><br>
     <label for="">Password</label>
     <input type="password" name="upassword" placeholder=" your password"><br>
+    <label for="">Confirm Password</label>
+
     <input type="password" name="password" placeholder=" confirm password"><br>
 
     <button type="submit" name="submit">Register</button>
