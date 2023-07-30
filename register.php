@@ -75,7 +75,7 @@
             background: #555 ;
             padding: 10px 15px;
             color: #fff;
-            border-radius: 15px;
+            border-radius: 10px;
             margin-right: 10px;
             border: none;
         }
