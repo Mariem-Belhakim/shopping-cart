@@ -58,8 +58,8 @@
                   echo "<td>" .$name . "</td>";
                   echo "<td> $ " . $price . "</td>";
                   echo "<td> <img class=\"productIMG\" src=\"" . $image . "\"/></td>";
-                  echo "<td> <a href=\"./update.php?id=".$row["id"] ."\" class=\" btn btn-primary\">Update</a>";
-                  echo "<a  href=\"./delete.php?id=". $row["id"] . "\" class=\" btn btn-danger m-3\">Delete</a>" ;            
+                  echo "<td> <a href=\"./update.php?id=".$row["id"] ."\" class=\" btn btn-primary\">Update</a> <br>";
+                  echo "<a  href=\"./delete.php?id=". $row["id"] . "\" class=\" btn btn-danger my-2 pe-3\">Delete</a>" ;            
                  echo "</td>";
                   echo "</tr>";
                 }
@@ -105,5 +105,7 @@
 
 
   <script src="main.js"></script>
+ 
+
 </body>
 </html>
