@@ -53,7 +53,7 @@
                     $image = $row['imageURL'];
 
                   echo "<tr>";
-                  echo "<th scope=\"row\"> <i class=\"fa-regular fa-heart\"></i></th>";
+                  echo "<th scope=\"row\"> <i id=\" heart\"  class=\"fa-regular fa-heart\"></i></th>";
                   echo "<td>" . $row["id"] . "</td>";
                   echo "<td>" .$name . "</td>";
                   echo "<td> $ " . $price . "</td>";
@@ -100,5 +100,10 @@
           </div>
   </div>
 
+
+
+
+
+  <script src="main.js"></script>
 </body>
 </html>
